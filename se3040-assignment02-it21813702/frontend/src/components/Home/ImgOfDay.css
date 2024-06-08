@@ -1,0 +1,130 @@
+.block {
+    padding: 1.8em;
+    border-bottom: 1px solid #e6e6e6;
+    height: auto;
+  }
+
+  .title-holder {
+    text-align: center;    
+  }
+
+  .title-holder h2 {
+      font-weight: 300;
+      font-size: 1.5rem;
+      
+    }
+    
+  .subtitle {
+    font-size: 2.7rem;
+    font-weight: 500;
+    color: #666;
+    }
+
+    .astroImg-block .img-fluid {
+      width: 100%; /* Allow the image to occupy full width */
+      height: auto; /* Ensure image height adjusts accordingly */
+      max-height: 100%;
+      
+    }
+
+  .img-explanation {
+    font-size: 1.1rem;
+    text-align: justify; 
+    padding-top: 0.3em;
+    font-weight: lighter ;
+   
+  }
+
+  .img-title {
+    padding-top: 1em;
+    text-align: center;
+  }
+
+  
+  @media (min-width: 585px) {
+    .title-holder {
+      text-align: center;
+    }
+    
+    .title-holder h2 {
+      font-weight: 300;
+      font-size: 1.5rem;
+      
+    }
+
+    .subtitle {
+      font-size: 2.6rem;
+      font-weight: 500;
+      color: #666;
+      padding-bottom: 0.3em;
+    }
+
+    .astroImg-block .row {
+      display: flex;
+      justify-content: center; /* Center the content horizontally */
+      margin-left: 10%; /* Increase left margin */
+      margin-right: 10%;/* Increase right margin */
+    }
+  
+  }
+
+    
+
+  @media (min-width: 1117px) {
+    .title-holder {
+      text-align: center;
+    }
+    
+    .title-holder h2 {
+      font-weight: 300;
+      font-size: 1.7rem;
+      
+    }
+
+    .subtitle {
+      font-size: 2.6rem;
+      font-weight: 500;
+      color: #666;
+      padding-bottom: 0.3em;
+    }
+
+    .astroImg-block .row {
+      display: flex;
+      justify-content: center; /* Center the content horizontally */
+      margin-left: 20%; /* Increase left margin */
+      margin-right: 20%;/* Increase right margin */
+    }
+  
+    .astroImg-block .col {
+      display: flex;
+      flex-direction: column;
+      align-items: center; /* Center the content vertically */
+    }
+  
+    .astroImg-block .img-fluid {
+      width: 96%; /* Allow the image to occupy full width */
+      height: auto; /* Ensure image height adjusts accordingly */
+      max-height: 90vh ;
+      
+    }
+  
+    .img-title,
+    .img-explanation {
+      text-align: center; /* Center the title and explanation */
+    }
+
+    .img-explanation {
+      font-size: 1.2rem; 
+      text-align: justify; 
+      padding-top: 0.3em;
+      font-weight: lighter ;
+     
+    }
+  
+    .img-title {
+      text-align: center;
+      font-size: 1.7rem;
+    }
+  }
+  
+

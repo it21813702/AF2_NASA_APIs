@@ -1,0 +1,25 @@
+
+/* 1. Gallery layout */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  /* 2. Set image size and prevent stretching */
+  .card {
+    margin: 10px;
+    text-align: justify;
+    
+  }
+  
+
+  h1 {
+    padding-top: 1.2em;
+  }
+
+
+
+  
+
+  

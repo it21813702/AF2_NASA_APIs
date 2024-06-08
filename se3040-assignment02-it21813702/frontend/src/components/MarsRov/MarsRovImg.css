@@ -1,0 +1,64 @@
+
+.manifest-button{
+    margin-top: 1rem ;
+    margin-bottom: 0.8rem ;
+    margin-left: 0.4rem;
+
+}
+
+.manifest-details h3, p {
+    text-align: left;
+    
+}
+
+.form {
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+
+}
+
+.photo-button{
+    margin-top: 1rem;
+    margin-left: 14% ;
+    margin-right: 14%;
+    margin-bottom:1rem ;
+    padding: 0.7em
+}
+
+.spinner {
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+
+
+@media (max-width: 767px){
+    .manifest-button{
+        margin-left: 30% ;
+        margin-right: 30%;
+        padding: 0.6em;
+        
+    }
+
+    .manifest-details h3, p {
+        text-align: center;
+        
+    }
+
+    .form {
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 1.5em;
+
+    }
+
+    .photo-button{
+        margin-top: 1.5rem;
+        margin-bottom: 1rem;
+        margin-left: 37% ;
+        margin-right: 35%;
+        padding: 0.6em
+    }
+    
+
+}

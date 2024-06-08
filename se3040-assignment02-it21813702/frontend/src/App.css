@@ -1,0 +1,48 @@
+header, main {
+  background-color:aliceblue;
+} 
+
+.block {
+  padding: 70px 0;
+  border-bottom: 1px solid #e6e6e6;
+  height: auto
+}
+
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+  padding-top: 2em;
+}
+
+/* Thin scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.3); 
+  border-radius: 3px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 0, 0, 0.5); 
+}
+
+
+
+@media (min-width: 768px) {
+  .text-md-left {
+    text-align: left;
+  }
+}
+
+
+
