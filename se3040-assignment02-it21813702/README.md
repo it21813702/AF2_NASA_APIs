@@ -22,12 +22,6 @@ This is a documentation created for the purpose of describing the steps taken to
 
 The Web-application in question successfully performs functions related to page navigation, form submission, data querying and retrieval.
 
->[!IMPORTANT]
->GitHub commits made under usernames: it21813702, OneillxM.
->
->I had to temporarily use a spare device due to performance/software issues; I had not configured the git username and email properly before work..
-
-
 1. Technology Stack
     - Frontend Development
    	- Javascript, React.js
